@@ -1,0 +1,44 @@
+[
+  {
+    "lastName": "Adigun",
+    "firstName": "Allen",
+    "isActive": true,
+    "email": "israel.oluwafemi@decagon.dev"
+  },
+  {
+    "lastName": "Rutledge",
+    "firstName": "Shannon",
+    "isActive": false,
+    "email": "shannonrutledge@emoltra.com"
+  },
+  {
+    "lastName": "Mcleod",
+    "firstName": "Claudia",
+    "isActive": true,
+    "email": "claudiamcleod@emoltra.com"
+
+  },
+  {
+    "lastName": "Callahan",
+    "firstName": "Rosanne",
+    "IsActive": true,
+    "Email": "rosannecallahan@emoltra.com"
+    
+  },
+  {
+    "LastName": "Greer",
+    "FirstName": "Ebony",
+    "IsActive": true,
+    "Email": "ebonygreer@emoltra.com"
+    
+    
+  },
+  {
+    "LastName": "Carrillo",
+    "FirstName": "Kelli",
+    "IsActive": false,
+    "Email": "kellicarrillo@emoltra.com"
+   
+  }
+]
+

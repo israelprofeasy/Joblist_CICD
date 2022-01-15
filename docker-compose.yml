@@ -1,0 +1,25 @@
+version: '3.2'
+
+networks:
+  job-dev:
+    driver: bridge
+
+services:
+  job-listing:
+    image: job_api:latest
+    depends_on:
+      - "Sqlite"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    environment:
+      DB_CONNECTION_STRING: "Database:Name = Data Source = ./JobListApp"      
+    networks:
+    - job-dev 
+
+    
+
+volumes:
+  db_volume:
